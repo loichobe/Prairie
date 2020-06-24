@@ -1,0 +1,104 @@
+body {
+    /*background-color: #343A40;*/
+    background-color: #333a42;
+    text-align: center;
+}
+
+p {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+header {
+    background-color: #BED4DF;
+    color: #ffffff;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+main {
+
+}
+
+#texte {
+    /*background-color: #FFFFFF;*/
+    background-color: #FFFFFF;
+    text-align: justify;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+#img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+
+
+
+/* Block 2 */
+
+#team {
+    background-color: #ffffff;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding-top: 2%;
+}
+
+.membres {
+    display: inline-block;
+
+}
+
+.membres > p {
+    font-weight: bold;
+
+}
+
+i {
+    color: grey;
+}
+
+.membres > img {
+    width: 50%;
+    border-radius: 50%;
+}
+
+
+
+/* Block 3 */
+
+#steward {
+    background-color: #ffffff;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding-bottom: 5%;
+    padding-top: 5%;
+    padding-left: 3%;
+    text-align: justify;
+}
+
+#imgste {
+    width: 50%;
+    float: left;
+    padding-right: 2%;
+}
+
+
+/* Footer */
+footer {
+    background-color: #BED4DF;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.asbl {
+    display: inline-block;
+}
+
+.asbl > img {
+    width: 10%;
+
+}

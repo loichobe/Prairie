@@ -1,0 +1,143 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #000000;
+    text-align: center;
+}
+
+h1 {
+    color: #FFFFFF;
+}
+
+.button {
+color: #ffffff;
+background-color: #3093F7;
+border: 1px solid #000000;
+border-radius: 7px;
+width: 280px;
+height: 50px;
+font-size: 20px;
+margin-top: 460px;
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+
+
+/* Texte changeant */
+#cafe {
+    color: brown;
+}
+
+#chat {
+    color: grey;
+}
+
+#voisin {
+    color: green;
+}
+
+#bio {
+    color: burlywood;
+}
+
+#sieste {
+    color: blueviolet;
+}
+
+#livre {
+    color: yellow;
+}
+
+
+
+.phrase {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 3em;
+    font-family: sans-serif;
+    color: #FFFFFF;
+    margin-left: 50px;
+    width: calc(100% - 50px);
+    text-shadow: 0 2px 2px rgba(0,0,0,.5);
+    left: -186px;
+
+}
+
+.mot {
+    display: inline-block;
+}
+
+.mot span {
+    position: absolute;
+    top: 0;
+    overflow: hidden;
+    animation: animate 12s linear infinite;
+    opacity: 0;
+}
+
+@keyframes animate {
+    0% {
+        opacity: 0;
+        transform: translateY(-50px); 
+    }
+
+    2% {
+        opacity: 0;
+        transform: translateY(0px);
+    }
+
+    18% {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+
+    20% {
+        opacity: 0;
+        transform: translateY(0px);
+    }
+
+    47% {
+        opacity: 0;
+        transform: translateY(0px);
+    }
+
+    99% {
+        opacity: 0;
+        transform: translateY(-50px);
+    }
+}
+
+.mot span:nth-child(1)
+{
+    animation-delay: 0s;
+}
+
+.mot span:nth-child(2)
+{
+    animation-delay: 2s;
+}
+
+.mot span:nth-child(3)
+{
+    animation-delay: 4s;
+}
+
+.mot span:nth-child(4)
+{
+    animation-delay: 6s;
+}
+
+.mot span:nth-child(5)
+{
+    animation-delay: 8s;
+}
+
+.mot span:nth-child(6)
+{
+    animation-delay: 10s;
+}

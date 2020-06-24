@@ -1,0 +1,73 @@
+body {
+background: -webkit-radial-gradient(rgb(124, 152, 178), rgb(0, 14, 28));
+background: radial-gradient(rgb(124, 152, 178), rgb(0, 14, 28));
+background-image: url(https://i.ytimg.com/vi/_UiMZjn2GwA/maxresdefault.jpg);
+background-repeat: no-repeat;
+background-position: bottom right;
+background-size: cover;
+}
+
+
+/*Concept 2 : Body à 90%*/
+header {
+    background-color: yellow;
+    margin: auto;
+    width: 90%;
+}
+
+#thumbsup {
+    background-image: url(img/bien.png);
+    padding-right: auto;
+    background-repeat: no-repeat;
+    background-size: 19px;
+    background-position: 20%;
+}
+
+main {
+    margin: auto;
+    width: 90%
+}
+
+footer {
+    margin: auto;
+    width: 90%;
+}
+
+/*Les citations n'ont pas besoin de margin puisqu'elles sont déjà centrée avec le margin dans header et footer*/
+blockquote {
+    width: 50%;
+    margin: 0% 25%;
+    padding: 80px 30px;
+    font-size: 160%;
+    border-left: 3px solid;
+    border-color: #842E1B;
+    background-color: #969696;
+}
+
+q {
+    font-style: italic;
+}
+
+.villageois {
+border-left: 5px solid;
+border-color: #0000FF;
+padding-left: 10px
+}
+
+.fermier {
+border-left: 5px solid;
+border-color: #FF0000;
+padding-left: 10px
+}
+
+.bien , .mal{
+    text-transform: uppercase;
+}
+
+.bien{
+    color: #148612;
+}
+
+.mal{
+    color: #a30808
+}
